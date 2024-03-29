@@ -1,0 +1,160 @@
+[21-Mar-2024 13:20:42 Asia/Kathmandu] PHP Notice:  Undefined variable: subpackageInfo in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 590
+[21-Mar-2024 13:20:42 Asia/Kathmandu] PHP Notice:  Trying to get property 'image4' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 590
+[21-Mar-2024 13:20:42 Asia/Kathmandu] PHP Notice:  Undefined variable: subpackageInfo in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 592
+[21-Mar-2024 13:20:42 Asia/Kathmandu] PHP Notice:  Trying to get property 'image4' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 592
+[21-Mar-2024 13:28:31 Asia/Kathmandu] PHP Notice:  Undefined variable: subpackageInfo in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 590
+[21-Mar-2024 13:28:31 Asia/Kathmandu] PHP Notice:  Trying to get property 'image4' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 590
+[21-Mar-2024 13:28:31 Asia/Kathmandu] PHP Notice:  Undefined variable: subpackageInfo in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 592
+[21-Mar-2024 13:28:31 Asia/Kathmandu] PHP Notice:  Trying to get property 'image4' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 592
+[21-Mar-2024 13:29:41 Asia/Kathmandu] PHP Notice:  Undefined variable: subpackageInfo in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 590
+[21-Mar-2024 13:29:41 Asia/Kathmandu] PHP Notice:  Trying to get property 'image4' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 590
+[21-Mar-2024 13:29:41 Asia/Kathmandu] PHP Notice:  Undefined variable: subpackageInfo in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 592
+[21-Mar-2024 13:29:41 Asia/Kathmandu] PHP Notice:  Trying to get property 'image4' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 592
+[21-Mar-2024 13:30:34 Asia/Kathmandu] PHP Notice:  Undefined variable: subpackageInfo in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 590
+[21-Mar-2024 13:30:34 Asia/Kathmandu] PHP Notice:  Trying to get property 'image4' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 590
+[21-Mar-2024 13:30:34 Asia/Kathmandu] PHP Notice:  Undefined variable: subpackageInfo in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 592
+[21-Mar-2024 13:30:34 Asia/Kathmandu] PHP Notice:  Trying to get property 'image4' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 592
+[21-Mar-2024 14:45:58 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 14:45:58 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 14:45:58 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 14:46:51 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 14:46:51 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 14:46:51 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 14:47:28 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 14:47:28 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 14:47:28 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 14:47:54 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 14:47:54 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 14:47:54 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 14:48:35 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 14:48:35 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 14:48:35 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 14:49:01 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 14:49:01 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 14:49:01 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 14:49:16 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 14:49:16 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 14:49:16 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 14:49:34 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 14:49:34 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 14:49:34 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 14:49:53 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 14:49:53 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 14:49:53 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 14:55:00 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 14:55:00 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 14:55:00 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:03:26 Asia/Kathmandu] PHP Warning:  filesize(): stat failed for /home/theanfac/mayurstay.com/hotelhimalaya/images/package/galleryimages/zSkxL-stand.jpg in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/subpackage_images.php on line 112
+[21-Mar-2024 15:03:26 Asia/Kathmandu] PHP Warning:  filesize(): stat failed for /home/theanfac/mayurstay.com/hotelhimalaya/images/package/galleryimages/wath6-standard.jpg in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/subpackage_images.php on line 112
+[21-Mar-2024 15:03:26 Asia/Kathmandu] PHP Warning:  filesize(): stat failed for /home/theanfac/mayurstay.com/hotelhimalaya/images/package/galleryimages/8Ws0F-stand.jpg in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/subpackage_images.php on line 112
+[21-Mar-2024 15:09:25 Asia/Kathmandu] PHP Warning:  filesize(): stat failed for /home/theanfac/mayurstay.com/hotelhimalaya/images/package/galleryimages/h26jS-delpre.jpg in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/subpackage_images.php on line 112
+[21-Mar-2024 15:09:25 Asia/Kathmandu] PHP Warning:  filesize(): stat failed for /home/theanfac/mayurstay.com/hotelhimalaya/images/package/galleryimages/4PvHa-delpre.jpg in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/subpackage_images.php on line 112
+[21-Mar-2024 15:09:25 Asia/Kathmandu] PHP Warning:  filesize(): stat failed for /home/theanfac/mayurstay.com/hotelhimalaya/images/package/galleryimages/aTYbg-delpre.jpg in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/subpackage_images.php on line 112
+[21-Mar-2024 15:10:07 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:10:07 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:10:07 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:10:29 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:10:29 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:10:29 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:10:34 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:10:34 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:10:34 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:10:44 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:10:44 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:10:44 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:10:50 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:10:50 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:10:50 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:11:00 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:11:00 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:11:00 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:49:38 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:49:38 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:49:38 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:54:33 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:54:33 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:54:33 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:54:48 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:54:48 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:54:48 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:55:00 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:55:00 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:55:00 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:55:09 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:55:09 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:55:09 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 15:55:19 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 15:55:19 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 15:55:19 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 16:06:40 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 16:06:40 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 16:06:40 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 16:13:29 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 16:13:29 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 16:13:29 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 16:14:00 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 16:14:00 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 16:14:00 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 16:14:20 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 16:14:20 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 16:14:20 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 16:14:40 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 16:14:40 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 16:14:40 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[21-Mar-2024 16:14:58 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[21-Mar-2024 16:14:58 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[21-Mar-2024 16:14:58 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[22-Mar-2024 10:09:42 Asia/Kathmandu] PHP Notice:  Trying to get property 'status' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/features/features.php on line 116
+[22-Mar-2024 10:09:42 Asia/Kathmandu] PHP Notice:  Trying to get property 'status' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/features/features.php on line 117
+[22-Mar-2024 12:13:04 Asia/Kathmandu] PHP Notice:  Trying to get property 'status' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 113
+[22-Mar-2024 12:13:04 Asia/Kathmandu] PHP Notice:  Trying to get property 'status' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 114
+[22-Mar-2024 12:13:04 Asia/Kathmandu] PHP Notice:  Trying to get property 'linktype' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 116
+[22-Mar-2024 12:13:04 Asia/Kathmandu] PHP Notice:  Trying to get property 'linktype' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 117
+[22-Mar-2024 12:13:04 Asia/Kathmandu] PHP Notice:  Trying to get property 'type' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 119
+[22-Mar-2024 12:13:04 Asia/Kathmandu] PHP Notice:  Trying to get property 'type' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 120
+[22-Mar-2024 12:13:04 Asia/Kathmandu] PHP Notice:  Trying to get property 'type' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 122
+[22-Mar-2024 12:13:04 Asia/Kathmandu] PHP Notice:  Trying to get property 'type' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 123
+[22-Mar-2024 12:13:12 Asia/Kathmandu] PHP Notice:  Trying to get property 'status' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 113
+[22-Mar-2024 12:13:12 Asia/Kathmandu] PHP Notice:  Trying to get property 'status' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 114
+[22-Mar-2024 12:13:12 Asia/Kathmandu] PHP Notice:  Trying to get property 'linktype' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 116
+[22-Mar-2024 12:13:12 Asia/Kathmandu] PHP Notice:  Trying to get property 'linktype' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 117
+[22-Mar-2024 12:13:12 Asia/Kathmandu] PHP Notice:  Trying to get property 'type' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 119
+[22-Mar-2024 12:13:12 Asia/Kathmandu] PHP Notice:  Trying to get property 'type' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 120
+[22-Mar-2024 12:13:12 Asia/Kathmandu] PHP Notice:  Trying to get property 'type' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 122
+[22-Mar-2024 12:13:12 Asia/Kathmandu] PHP Notice:  Trying to get property 'type' of non-object in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/slideshow/slideshow.php on line 123
+[22-Mar-2024 18:00:43 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[22-Mar-2024 18:00:43 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[22-Mar-2024 18:00:43 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[22-Mar-2024 18:00:49 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[22-Mar-2024 18:00:49 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[22-Mar-2024 18:00:49 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[22-Mar-2024 18:01:00 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[22-Mar-2024 18:01:00 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[22-Mar-2024 18:01:00 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[22-Mar-2024 18:01:30 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[22-Mar-2024 18:01:30 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[22-Mar-2024 18:01:30 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[22-Mar-2024 18:01:40 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[22-Mar-2024 18:01:40 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[22-Mar-2024 18:01:40 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[22-Mar-2024 18:01:48 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[22-Mar-2024 18:01:48 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[22-Mar-2024 18:01:48 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[22-Mar-2024 18:01:54 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[22-Mar-2024 18:01:54 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[22-Mar-2024 18:01:54 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[22-Mar-2024 18:01:59 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[22-Mar-2024 18:01:59 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[22-Mar-2024 18:01:59 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[25-Mar-2024 18:01:33 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[25-Mar-2024 18:01:33 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[25-Mar-2024 18:01:33 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[26-Mar-2024 12:08:32 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[26-Mar-2024 12:08:32 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[26-Mar-2024 12:08:32 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[26-Mar-2024 12:08:44 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[26-Mar-2024 12:08:44 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[26-Mar-2024 12:08:44 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442
+[26-Mar-2024 12:10:37 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 436
+[26-Mar-2024 12:10:37 Asia/Kathmandu] PHP Notice:  Undefined variable: feature_of_room in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 439
+[26-Mar-2024 12:10:37 Asia/Kathmandu] PHP Notice:  Undefined variable: none_selected in /home/theanfac/mayurstay.com/hotelhimalaya/apanel/package/sub_package.php on line 442

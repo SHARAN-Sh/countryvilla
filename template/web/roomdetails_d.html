@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Longtail">
+    <title>Hotel Country Villa</title>
+    
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- GOOGLE WEB FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&amp;family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/vendors.min.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body> 
+
+    <div id="preloader">
+        <div data-loader="circle-side"></div>
+    </div><!-- /Page Preload -->
+
+    <div class="layer"></div><!-- Opacity Mask -->
+
+    <header class="reveal_header animated headroom--not-top headroom--not-bottom slideDown">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                 <div class="col-6">
+                    <a href="index.html" class="logo_normal"><img src="img/logo.png" width="300" alt=""></a>
+                    <a href="index.html" class="logo_sticky"><img src="img/logoblack.png" width="250" alt=""></a>
+                </div>
+                <div class="col-6">
+                    <nav>
+                        <ul>
+                            <li><a href="#booking_section" class="btn_1 btn_scrollto">Book Now</a></li>
+                            <li>
+                               <div class="hamburger_2 open_close_nav_panel">
+                                    <div class="hamburger__box">
+                                        <div class="hamburger__inner"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </header>
+
+    <div class="nav_panel">
+        <a href="#" class="closebt open_close_nav_panel"><i class="bi bi-x"></i></a>
+        <div class="sidebar-navigation">
+            <nav>
+                <ul class="level-1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Hotel</a></li>
+                    
+                    <!-- <li class="parent"><a href="#0">Rooms & Suites</a> -->
+                        <li class="parent"><div class="d-flex align-items-center justify-content-between"><a href="room.html" class="menu-text">Rooms & Suites</a><a href="#0" class="menu-arrow"><i class="bi bi-chevron-right"></i></a></div>
+                        <ul class="level-2">
+                            <li class="back"><a href="#0">Back</a></li>
+                            <li><a href="roomdetails_e.html">Executive Suite Room</a></li>
+                            <li><a href="roomdetails_ds.html">Deluxe Suite</a></li>
+                            <li><a href="roomdetails_j.html">Junior Suite</a></li>
+                            <li><a href="roomdetails_s.html">Country Villa Superior Double</a></li>
+                            <li><a href="roomdetails_dp.html">Country Villa Deluxe Premium</a></li>
+                            <li><a href="roomdetails_d.html">Country Villa Deluxe</a></li>
+                        </ul>
+                    </li>
+                        <li class="parent"><div class="d-flex align-items-center justify-content-between"><a href="#0" class="menu-text">Restaurant & Bar</a><a href="#0" class="menu-arrow"><i class="bi bi-chevron-right"></i></a></div>
+
+                    <!-- <li class="parent"><a href="#0">Restaurant & Bar</a> -->
+                        <ul class="level-2">
+                            <li class="back"><a href="#0">Back</a></li>
+                            <li><a href="restaurant.html">Himalayan Restaurant</a></li>
+                            <li><a href="restaurant.html">Sunset Bar</a></li>
+                            <li><a href="restaurant.html">Sunrise Cafe</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="event.html">Meeting & Events</a></li>
+                    <li class="parent"><div class="d-flex align-items-center justify-content-between"><a href="#0" class="menu-text">Multimedia</a><a href="#0" class="menu-arrow"><i class="bi bi-chevron-right"></i></a></div>
+
+                    <!-- <li class="parent"><a href="#0">Multimedia</a> -->
+                        <ul class="level-2">
+                            <li class="back"><a href="#0">Back</a></li>
+                            <li><a href="image_gallery.html">Photo Gallery</a></li>
+                            <li><a href="video_gallery.html">Video Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+                <div class="panel_footer">
+                    <div class="phone_element">
+                        <a href="tel:+97716680127/28">
+                            <i class="bi bi-telephone"></i><span><em>Info and bookings</em>+977 - 1 - 6680127/28</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- /panel_footer -->
+            </nav>
+        </div>
+        <!-- /sidebar-navigation -->
+    </div>
+    <!-- /nav_panel --> 
+    <div class="hero full-height jarallax" data-jarallax data-speed="0.2">
+        <div class="owl-carousel owl-theme carousel_item_x2">
+            <img class="" src="img/rooms/6.jpg" alt="">
+        </div>
+        <div class="wrapper opacity-mask d-flex align-items-center  text-center animate_hero" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <small class="slide-animated one">Luxury Hotel Experience</small>
+                        <h1 class="slide-animated two">Country Villa Deluxe Room</h1>
+                        <p class="slide-animated three">Spacious luxurious Deluxe room located on the topmost floor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mouse_wp slide-animated four">
+                <a href="#first_section" class="btn_explore">
+                    <div class="mouse"></div>
+                </a>
+            </div>
+            <!-- / mouse -->
+        </div>
+    </div>
+    <!-- /Background Img Parallax -->
+<div class="clr">
+    <div class="container padding_80_80" id="booking_section">
+        <div class="row justify-content-between">
+            <div class="col-xl-4">
+                <div data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="title">
+                        <small>Hotel Country Villa</small>
+                        <h2>Check Availability</h2>
+                    </div>
+                    <p>You can check the availability of a room prior after entering a date request. This will ensure that the room you are requesting is not already booked.</p>
+
+                    <p class="phone_element no_borders"><a href="tel://+97716680127"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>+977 6680127 / 28</span></a></p>
+                </div>
+            </div>
+            <div class="col-xl-7">
+                <div data-cue="slideInUp" data-delay="200" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 380ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="booking_wrapper">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="birthday">Check - In</label>
+                                <input type="date" id="date" name="date" class="form-control">
+                            </div>
+
+                            <div class="col-lg-6">
+                                <label for="birthday">Check - Out</label>
+                                <input type="date" id="date" name="date" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / row -->
+                    <p class="text-end mt-4"><a href="#0" class="btn_1 outline">Check Availability</a></p>
+                </div>
+            </div>
+            <!-- /col -->
+        </div>
+        <!-- /row -->
+    </div>
+</div>
+    
+
+    <main>
+
+       
+        <div class="bg_white" id="first_section" style="background-image: url(img/texture.jpg); background-size: cover;">
+            <div class="container margin_120_95">
+                <div class="row justify-content-between">
+                    <div class="col-lg-4">
+                        <div class="title">
+                            <small>Country Villa Deluxe Room</small>
+                            <h2>Spacious luxurious Deluxe Room located on the topmost floor.</h2>
+                        </div>
+                        <p>With high ceiling, tented roof and two large balconies facing directly towards the Himalayan range, offers king sized bed, a living room, a two person in-room jacuzzi, and all other amenities that will make your stay a remarkable one. The room was recently renovated using only high quality materials and locally sourced reclaimed wood to give it a rustic feel.</p>
+                        <p>The dark wood panelling and furnishings, deluxe red-draped four-poster bed, and magnificent black stone bathroom evoke the charm.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="room_facilities_list">
+                            <ul data-cues="slideInLeft">
+                                <li><i class="icon-hotel-double_bed_2"></i> King Size Bed</li>
+                                <li><i class="icon-hotel-safety_box"></i> Safety Box</li>
+                                <li><i class="icon-hotel-patio"></i>Balcony</li>
+                                <li><i class="icon-hotel-tv"></i> 32 Inch TV</li>
+                                <li><i class="icon-hotel-disable"></i> Disable Access</li>
+                                <li><i class="icon-hotel-dog"></i> Pet Allowed</li>
+                                <li><i class="icon-hotel-bottle"></i> Welcome Bottle</li>
+                                <li><i class="icon-hotel-wifi"></i> Wifi / Netflix access</li>
+                                <li><i class="icon-hotel-hairdryer"></i> Air Dryer</li>
+                                <li><i class="icon-hotel-condition"></i> Air Condition</li>
+                                <li><i class="icon-hotel-loundry"></i>Loundry Service</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /bg_white -->
+
+        <div class="bg_white add_bottom_120">
+            <div class="container-fluid p-lg-0">
+                <div data-cues="zoomIn">
+                    <div class="owl-carousel owl-theme carousel_item_centered kenburns rounded-img">
+                        <div class="item">
+                            <img src="img/rooms/6.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/rooms/6.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/rooms/6.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/rooms/6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <a class="btn_1 outline" data-fslightbox="gallery_1" data-type="image" href="img/rooms/6.jpg">FullScreen Gallery</a>
+                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/6.jpg"></a>
+                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/6.jpg"></a>
+                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/6.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <!-- /bg_white -->
+
+        <div class="container margin_120_95 d-none" id="reviews">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 order-lg-2 fixed_title reviews_sum_details">
+                    <div class="title">
+                        <small>Hotel Country Villa</small>
+                        <h2>Reviews</h2>
+                    </div>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                    <h6>Comfort</h6>
+                    <div class="row mb-2">
+                        <div class="col-xl-10 col-lg-9 col-10">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-2"><strong>9.0</strong></div>
+                    </div>
+                    <!-- /row -->
+                    <h6>Facilities</h6>
+                    <div class="row mb-2">
+                        <div class="col-xl-10 col-lg-9 col-10">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-2"><strong>9.5</strong></div>
+                    </div>
+                    <!-- /row -->
+                    <h6>Location</h6>
+                    <div class="row mb-2">
+                        <div class="col-xl-10 col-lg-9 col-10">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-2"><strong>6.0</strong></div>
+                    </div>
+                    <!-- /row -->
+                    <h6>Price</h6>
+                    <div class="row mb-2">
+                        <div class="col-xl-10 col-lg-9 col-10">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-2"><strong>6.0</strong></div>
+                    </div>
+                    <!-- /row -->
+                </div>
+                <div class="col-lg-7 order-lg-1">
+                    <div class="review_card">
+                        <div class="row">
+                            <div class="col-md-2 user_info">
+                                <figure><img src="img/avatar4.jpg" alt=""></figure>
+                                <h5>Lukas</h5>
+                            </div>
+                            <div class="col-md-10 review_content">
+                                <div class="clearfix mb-3">
+                                    <span class="rating">8.5<small>/10</small> <strong>Rating average</strong></span>
+                                    <em>Published 54 minutes ago</em>
+                                </div>
+                                <h4>"Great Location!!"</h4>
+                                <p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod scaevola sea. Et nec tantas accusamus salutatus, sit commodo veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius essent fuisset ut. Viderer petentium cu his. Tollit molestie suscipiantur his et.</p>
+                            </div>
+                        </div>
+                        <!-- /row -->
+                    </div>
+                    <!-- /review_card -->
+                    <div class="review_card">
+                        <div class="row">
+                            <div class="col-md-2 user_info">
+                                <figure><img src="img/avatar6.jpg" alt=""></figure>
+                                <h5>Lukas</h5>
+                            </div>
+                            <div class="col-md-10 review_content">
+                                <div class="clearfix mb-3">
+                                    <span class="rating">8.5<small>/10</small> <strong>Rating average</strong></span>
+                                    <em>Published 10 Oct. 2022</em>
+                                </div>
+                                <h4>"Awesome Experience"</h4>
+                                <p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod scaevola sea. Et nec tantas accusamus salutatus, sit commodo veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius essent fuisset ut. Viderer petentium cu his. Tollit molestie suscipiantur his et.</p>
+                            </div>
+                        </div>
+                        <!-- /row -->
+                    </div>
+                    <!-- /review_card -->
+                    <div class="review_card">
+                        <div class="row">
+                            <div class="col-md-2 user_info">
+                                <figure><img src="img/avatar1.jpg" alt=""></figure>
+                                <h5>Marika</h5>
+                            </div>
+                            <div class="col-md-10 review_content">
+                                <div class="clearfix mb-3">
+                                    <span class="rating">9.0<small>/10</small> <strong>Rating average</strong></span>
+                                    <em>Published 11 Oct. 2022</em>
+                                </div>
+                                <h4>"Really great dinner!!"</h4>
+                                <p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod scaevola sea. Et nec tantas accusamus salutatus, sit commodo veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius essent fuisset ut. Viderer petentium cu his. Tollit molestie suscipiantur his et.</p>
+                            </div>
+                        </div>
+                        <!-- /row -->
+                        <div class="row reply">
+                            <div class="col-md-2 user_info">
+                                <figure><img src="img/avatar.jpg" alt=""></figure>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="review_content">
+                                    <strong>Reply from Admin</strong>
+                                    <em>Published 3 minutes ago</em>
+                                    <p><br>Hi Monika,<br><br>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod scaevola sea. Et nec tantas accusamus salutatus, sit commodo veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius essent fuisset ut. Viderer petentium cu his. Tollit molestie suscipiantur his et.<br><br>Thanks</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /reply -->
+                    </div>
+                    <!-- /review_card -->
+                    <p class="text-end"><a href="#0" class="btn_1">Leave a review</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- /reviews -->
+
+        <div class="bg_white">
+            <div class="container margin_120_95">
+                <div data-cue="slideInUp">
+                    <div class="title">
+                        <small>Hotel Country Villa</small>
+                        <h2>Similar Rooms</h2>
+                    </div>
+                    <div class="row" data-cues="slideInUp" data-delay="800">
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                            <a href="room-list-1.html" class="box_cat_rooms">
+                                <figure>
+                                    <div class="background-image" data-background="url(img/rooms/1.jpg)"></div>
+                                    <div class="info">
+                                        <small>From $150/night</small>
+                                        <h3>Double Room</h3>
+                                        <span>Read more</span>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                            <a href="room-list-1.html" class="box_cat_rooms">
+                                <figure>
+                                    <div class="background-image" data-background="url(img/rooms/2.jpg)"></div>
+                                    <div class="info">
+                                        <small>From $190/night</small>
+                                        <h3>Deluxe Room</h3>
+                                        <span>Read more</span>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                            <a href="room-list-1.html" class="box_cat_rooms">
+                                <figure>
+                                    <div class="background-image" data-background="url(img/rooms/3.jpg)"></div>
+                                    <div class="info">
+                                        <small>From $240/night</small>
+                                        <h3>Superior Room</h3>
+                                        <span>Read more</span>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /row-->
+                </div>
+            </div>
+        </div>
+        <!-- /bg_white -->
+
+      
+    </main>
+
+    <footer>
+        <div class="background-image" data-background="url(img/footer_bg.png)"></div>
+        <div class="footer_bg">
+            <!-- <div class="gradient_over"></div> -->
+            
+        
+            <div class="container">
+                <div class="row move_content">
+                    <div class="col-lg-4 col-md-12">
+                        <h5>Hotel Country Villa</h5>
+                        <ul>
+                            <li>Nagarkot (Mandan-Deupur, Kavre), Nepal</li><br/>
+                            <!-- <li><strong><a href="#0">info@Paradisehotel.com</a></strong></li> -->
+                            <li><strong><a href="tel:+97716680127">+977 - 1 - 6680127</a>/<a href="tel:+97716680128">28</a></strong></li>
+                        </ul>
+                        <div class="social">
+                            <ul>
+                                <li><a href="https://instagram.com/hotelcountryvilla" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#0"><i class="bi bi-whatsapp"></i></a></li>
+                                <li><a href="https://www.facebook.com/hotelcountryvilla" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/countryvillanep" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+                                <li><a href="https://www.youtube.com/user/hotelcountryvilla" target="_blank"><i class="bi bi-youtube"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/hotelcountryvilla" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                                <li><a href="https://www.pinterest.com/countryvilla" target="_blank"><i class="bi bi-pinterest"></i></a></li> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 ms-lg-auto">
+                        <h5>Explore</h5>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Rooms &amp; Suites</a></li>
+                                <li><a href="#">Meeting &amp; Events</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms and Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-12">
+                        <h5>Kathmandu City Office</h5>
+                        <ul>
+                            <li>Diyali Marg, Lazimpat, Kathmandu</li><br/>
+                            <li><strong><a href="mailto:reservation@hotelcountryvilla.com">reservation@hotelcountryvilla.com</a></strong></li><br/>
+                            <li><strong><a href="tel:+97714006612">+977 - 1 - 4006612</a>/<a href="tel:+97714006613">13</a>/<a href="tel:+9771400614">14</a></strong></li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+                <!--/row-->
+            </div>
+        </div>
+        <!--/container-->
+        <div class="copy">
+            <div class="container">
+               © Copyright 2024 Hotel Country Villa. All Rights Reserved. Designed by <a href="https://www.longtail.info">Longtail e-media</a>
+            </div>
+        </div>
+    </footer>
+<a href="https://wa.me/+9779851335402" target="_blank" class="whatsapp-button"><img src="http://dhagroup.com.np/template/cms/img/whatsapp.png" class="img-fluid"></a>
+    <!-- /footer -->
+   
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+        </svg>
+    </div>
+    <!-- /back to top -->
+
+
+<!-- COMMON SCRIPTS -->
+<script src="js/common_scripts.js"></script>
+<script src="js/common_functions.js"></script>
+<script src="js/datepicker_inline.js"></script>
+<script src="phpmailer/validate.js"></script>
+<script>
+    // Progress bars animation
+    $(function() {
+        "use strict";
+        var $section = $('#reviews');
+        $(window).on('scroll', function(ev) {
+            var scrollOffset = $(window).scrollTop();
+            var containerOffset = $section.offset().top - window.innerHeight;
+            if (scrollOffset > containerOffset) {
+                $(".progress-bar").each(function() {
+                    var each_bar_width = $(this).attr('aria-valuenow');
+                    $(this).width(each_bar_width + '%');
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

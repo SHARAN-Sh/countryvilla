@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Ansonika">
+    <title>Hotel Country Villa</title>
+    
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&amp;family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/vendors.min.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body> 
+
+    <div id="preloader">
+        <div data-loader="circle-side"></div>
+    </div><!-- /Page Preload -->
+
+    <div class="layer"></div><!-- Opacity Mask -->
+
+    <header class="reveal_header animated headroom--not-top headroom--not-bottom slideDown">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                 <div class="col-6">
+                    <a href="index.html" class="logo_normal"><img src="img/logo.png" width="300" alt=""></a>
+                    <a href="index.html" class="logo_sticky"><img src="img/logoblack.png" width="250" alt=""></a>
+                </div>
+                <div class="col-6">
+                    <nav>
+                        <ul>
+                            <li><a href="#booking_section" class="btn_1 btn_scrollto">Book Now</a></li>
+                            <li>
+                               <div class="hamburger_2 open_close_nav_panel">
+                                    <div class="hamburger__box">
+                                        <div class="hamburger__inner"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </header>
+
+    <div class="nav_panel">
+        <a href="#" class="closebt open_close_nav_panel"><i class="bi bi-x"></i></a>
+        <div class="sidebar-navigation">
+            <nav>
+                <ul class="level-1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Hotel</a></li>
+                    
+                    <!-- <li class="parent"><a href="#0">Rooms & Suites</a> -->
+                        <li class="parent"><div class="d-flex align-items-center justify-content-between"><a href="room.html" class="menu-text">Rooms & Suites</a><a href="#0" class="menu-arrow"><i class="bi bi-chevron-right"></i></a></div>
+                        <ul class="level-2">
+                            <li class="back"><a href="#0">Back</a></li>
+                            <li><a href="roomdetails_e.html">Executive Suite Room</a></li>
+                            <li><a href="roomdetails_ds.html">Deluxe Suite</a></li>
+                            <li><a href="roomdetails_j.html">Junior Suite</a></li>
+                            <li><a href="roomdetails_s.html">Country Villa Superior Double</a></li>
+                            <li><a href="roomdetails_dp.html">Country Villa Deluxe Premium</a></li>
+                            <li><a href="roomdetails_d.html">Country Villa Deluxe</a></li>
+                        </ul>
+                    </li>
+                        <li class="parent"><div class="d-flex align-items-center justify-content-between"><a href="#0" class="menu-text">Restaurant & Bar</a><a href="#0" class="menu-arrow"><i class="bi bi-chevron-right"></i></a></div>
+
+                    <!-- <li class="parent"><a href="#0">Restaurant & Bar</a> -->
+                        <ul class="level-2">
+                            <li class="back"><a href="#0">Back</a></li>
+                            <li><a href="restaurant.html">Himalayan Restaurant</a></li>
+                            <li><a href="restaurant.html">Sunset Bar</a></li>
+                            <li><a href="restaurant.html">Sunrise Cafe</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="event.html">Meeting & Events</a></li>
+                    <li class="parent"><div class="d-flex align-items-center justify-content-between"><a href="#0" class="menu-text">Multimedia</a><a href="#0" class="menu-arrow"><i class="bi bi-chevron-right"></i></a></div>
+
+                    <!-- <li class="parent"><a href="#0">Multimedia</a> -->
+                        <ul class="level-2">
+                            <li class="back"><a href="#0">Back</a></li>
+                            <li><a href="image_gallery.html">Photo Gallery</a></li>
+                            <li><a href="video_gallery.html">Video Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+                <div class="panel_footer">
+                    <div class="phone_element">
+                        <a href="tel:+97716680127/28">
+                            <i class="bi bi-telephone"></i><span><em>Info and bookings</em>+977 - 1 - 6680127/28</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- /panel_footer -->
+            </nav>
+        </div>
+        <!-- /sidebar-navigation -->
+    </div>
+    <!-- /nav_panel --> 
+
+    <div class="hero full-height jarallax" data-jarallax data-speed="0.2">
+        <img class="jarallax-img" src="img/rooms/3.jpg" alt="">
+        <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+            <div class="container">
+                <small class="slide-animated one">Luxury Hotel Experience</small>
+                <h1 class="slide-animated two">Rooms & Suites</h1>
+            </div>
+        </div>
+    </div>
+    <!-- /Background Img Parallax -->
+
+    <div class="container padding_80_80" id="booking_section">
+        <div class="row justify-content-between">
+            <div class="col-xl-4">
+                <div data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="title">
+                        <small>Hotel Country Villa</small>
+                        <h2>Check Availability</h2>
+                    </div>
+                    <p>You can check the availability of a room prior after entering a date request. This will ensure that the room you are requesting is not already booked.</p>
+
+                    <p class="phone_element no_borders"><a href="tel://423424234"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>+41 934 121 1334</span></a></p>
+                </div>
+            </div>
+            <div class="col-xl-7">
+                <div data-cue="slideInUp" data-delay="200" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 380ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="booking_wrapper">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="birthday">Check - In</label>
+                                <input type="date" id="date" name="date" class="form-control">
+                            </div>
+
+                            <div class="col-lg-6">
+                                <label for="birthday">Check - Out</label>
+                                <input type="date" id="date" name="date" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / row -->
+                    <p class="text-end mt-4"><a href="#0" class="btn_1 outline">Check Availability</a></p>
+                </div>
+            </div>
+            <!-- /col -->
+        </div>
+        <!-- /row -->
+    </div>
+
+     <main>
+
+       
+
+        <div class="container margin_120_95" id="first_section">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 fixed_title">
+                    <div class="title">
+                        <small>Hotel Country Villa</small>
+                        <h2>Our Rooms</h2>
+                        <p class="lead">Indulge in comfort at our hotel. Stylishly designed rooms with modern amenities, including Wi-Fi, ensure a relaxing stay. Immerse yourself in a welcoming atmosphere, complemented by attentive service for an unforgettable experience.</p>
+                        <p><a href="#booking_section" class="btn_1 outline">Book Now</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <div class="row_list_version_3" data-cue="fadeIn">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a href="room-details_e.html"><img src="img/rooms/ex1.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_e.html"><img src="img/rooms/ex2.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_e.html"><img src="img/rooms/ex3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>From $500/night</small>
+                            <h2>Executive Suite Room</h2>
+                            <p>Beautiful design with modern furnishings including a glamorous bay window with your own private view of Lucerne.</p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="customicon-double-bed"></i> King Size Bed
+                                    </li>
+                                    <li>
+                                        <i class="customicon-television"></i> 32 Inc TV
+                                    </li>
+                                </ul>
+                            </div>
+                        <p><a href="room-details_e.html" class="btn_1 outline">See more</a></p>
+
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /row_list_version_3 -->
+
+                    <div class="row_list_version_3" data-cue="fadeIn">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a href="room-details_ds.html"><img src="img/rooms/d1.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_ds.html"><img src="img/rooms/d2.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_ds.html"><img src="img/rooms/d3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>From $350/night</small>
+                            <h2>Deluxe Suite Room</h2>
+                            <p>Beautiful design with modern furnishings including a glamorous bay window with your own private view of Lucerne.</p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="customicon-double-bed"></i> King Size Bed
+                                    </li>
+                                    <li>
+                                        <i class="customicon-television"></i> 32 Inc TV
+                                    </li>
+                                </ul>
+                            </div>
+
+                        <p><a href="room-details_ds.html" class="btn_1 outline">See more</a></p>
+
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /row_list_version_3 -->
+
+                    <div class="row_list_version_3" data-cue="fadeIn">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a href="room-details_j.html"><img src="img/rooms/j1.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_j.html"><img src="img/rooms/j2.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_j.html"><img src="img/rooms/j3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>From $250/night</small>
+                            <h2>Junior Suite Room</h2>
+                            <p>Beautiful design with modern furnishings including a glamorous bay window with your own private view of Lucerne.</p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="customicon-double-bed"></i> King Size Bed
+                                    </li>
+                                    <li>
+                                        <i class="customicon-television"></i> 32 Inc TV
+                                    </li>
+                                </ul>
+                            </div>
+
+                        <p><a href="room-details_j.html" class="btn_1 outline">See more</a></p>
+                             
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /row_list_version_3 -->
+
+                    <div class="row_list_version_3" data-cue="fadeIn">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a href="room-details_s.html"><img src="img/rooms/s1.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_s.html"><img src="img/rooms/s2.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_s.html"><img src="img/rooms/s3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>From $180/night</small>
+                            <h2>Country Villa Superior Double</h2>
+                            <p>Beautiful design with modern furnishings including a glamorous bay window with your own private view of Lucerne.</p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="customicon-double-bed"></i> King Size Bed
+                                    </li>
+                                    <li>
+                                        <i class="customicon-television"></i> 32 Inc TV
+                                    </li>
+                                </ul>
+                            </div>
+
+                        <p><a href="room-details_s.html" class="btn_1 outline">See more</a></p>
+
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /row_list_version_3 -->
+
+                    <div class="row_list_version_3" data-cue="fadeIn">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a href="room-details_dp.html"><img src="img/rooms/5.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_dp.html"><img src="img/rooms/5.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_dp.html"><img src="img/rooms/5.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>From $150/night</small>
+                            <h2>Country Villa Deluxe Premium </h2>
+                            <p>Beautiful design with modern furnishings including a glamorous bay window with your own private view of Lucerne.</p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="customicon-double-bed"></i> King Size Bed
+                                    </li>
+                                    <li>
+                                        <i class="customicon-television"></i> 32 Inc TV
+                                    </li>
+                                </ul>
+                            </div>
+
+                        <p><a href="room-details_dp.html" class="btn_1 outline">See more</a></p>
+
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /row_list_version_3 -->
+
+                    <div class="row_list_version_3" data-cue="fadeIn">
+                        <div class="owl-carousel owl-theme carousel_item_1 kenburns rounded-img">
+                            <div class="item">
+                                <a href="room-details_d.html"><img src="img/rooms/6.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_d.html"><img src="img/rooms/6.jpg" alt=""></a>
+                            </div>
+                            <div class="item">
+                                <a href="room-details_d.html"><img src="img/rooms/6.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- /carousel -->
+                        <div class="box_item_info" data-jarallax-element="-25">
+                            <small>From $130/night</small>
+                            <h2>Country Villa Deluxe Room</h2>
+                            <p>Beautiful design with modern furnishings including a glamorous bay window with your own private view of Lucerne.</p>
+                            <div class="facilities clearfix">
+                                <ul>
+                                    <li>
+                                        <i class="customicon-double-bed"></i> King Size Bed
+                                    </li>
+                                    <li>
+                                        <i class="customicon-television"></i> 32 Inc TV
+                                    </li>
+                                </ul>
+                            </div>
+
+                        <p><a href="room-details_d.html" class="btn_1 outline">See more</a></p>
+
+                        </div>
+                        <!-- /box_item_info -->
+                    </div>
+                    <!-- /row_list_version_3 -->
+
+                </div>
+            </div>
+        </div>
+        <!-- /container-->
+
+        
+
+        <div class="pinned-image pinned-image--medium">
+            <div class="pinned-image__container">
+               <img src="img/parallax_bg.jpg" alt="">
+                <div class="pinned-image__container-overlay"></div>
+            </div>
+            <div class="pinned_over_content">
+                <div class="title white center mb-5">
+                        <small data-cue="slideInUp">Hotel Country Villa</small>
+                        <h2 data-cue="slideInUp" data-delay="100">Main Facilities</h2>
+                    </div>
+                <div class="row mt-4">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-6">
+                        <div class="box_facilities white no-border" data-cue="slideInUp">
+                            <i class="customicon-private-parking"></i>
+                            <h3>Private Parking</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-6">
+                        <div class="box_facilities white" data-cue="slideInUp">
+                            <i class="customicon-wifi"></i>
+                            <h3>High Speed Wifi</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-6">
+                        <div class="box_facilities white" data-cue="slideInUp">
+                            <i class="customicon-cocktail"></i>
+                            <h3>Bar & Restaurant</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-6">
+                        <div class="box_facilities white" data-cue="slideInUp">
+                            <i class="customicon-swimming-pool"></i>
+                            <h3>Swimming Pool</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Row -->
+            </div>
+        </div>
+        <!-- /pinned-image -->
+
+      
+
+    </main>
+
+    <footer>
+        <div class="background-image" data-background="url(img/footer_bg.png)"></div>
+        <div class="footer_bg">
+            <!-- <div class="gradient_over"></div> -->
+            
+        
+            <div class="container">
+                <div class="row move_content">
+                    <div class="col-lg-4 col-md-12">
+                        <h5>Hotel Country Villa</h5>
+                        <ul>
+                            <li>Nagarkot (Mandan-Deupur, Kavre), Nepal</li><br/>
+                            <!-- <li><strong><a href="#0">info@Paradisehotel.com</a></strong></li> -->
+                            <li><strong><a href="tel:+97716680127">+977 - 1 - 6680127</a>/<a href="tel:+97716680128">28</a></strong></li>
+                        </ul>
+                        <div class="social">
+                            <ul>
+                                <li><a href="https://instagram.com/hotelcountryvilla" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#0"><i class="bi bi-whatsapp"></i></a></li>
+                                <li><a href="https://www.facebook.com/hotelcountryvilla" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/countryvillanep" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+                                <li><a href="https://www.youtube.com/user/hotelcountryvilla" target="_blank"><i class="bi bi-youtube"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/hotelcountryvilla" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                                <li><a href="https://www.pinterest.com/countryvilla" target="_blank"><i class="bi bi-pinterest"></i></a></li> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 ms-lg-auto">
+                        <h5>Explore</h5>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Rooms &amp; Suites</a></li>
+                                <li><a href="#">Meeting &amp; Events</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms and Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-12">
+                        <h5>Kathmandu City Office</h5>
+                        <ul>
+                            <li>Diyali Marg, Lazimpat, Kathmandu</li><br/>
+                            <li><strong><a href="mailto:reservation@hotelcountryvilla.com">reservation@hotelcountryvilla.com</a></strong></li><br/>
+                            <li><strong><a href="tel:+97714006612">+977 - 1 - 4006612</a>/<a href="tel:+97714006613">13</a>/<a href="tel:+9771400614">14</a></strong></li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+                <!--/row-->
+            </div>
+        </div>
+        <!--/container-->
+        <div class="copy">
+            <div class="container">
+               © Copyright 2024 Hotel Country Villa. All Rights Reserved. Designed by <a href="https://www.longtail.info">Longtail e-media</a>
+            </div>
+        </div>
+    </footer>
+<a href="https://wa.me/+9779851335402" target="_blank" class="whatsapp-button"><img src="http://dhagroup.com.np/template/cms/img/whatsapp.png" class="img-fluid"></a>
+    <!-- /footer -->
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+        </svg>
+    </div>
+    <!-- /back to top -->
+	
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js"></script>
+    <script src="js/common_functions.js"></script>
+    <script src="js/datepicker_inline.js"></script>
+    <script src="phpmailer/validate.js"></script>
+
+</body>
+</html>
