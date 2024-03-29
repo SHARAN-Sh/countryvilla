@@ -166,7 +166,7 @@ endif;
                 </div>
                 <div class="form-input col-md-8">
                 	<div class="col-md-4" style="padding-left:0px !important;">
-                    	<input  placeholder="Menu Link" class="validate[required,length[0,50]]" type="text" name="linksrc" id="linksrc" value="<?php echo !empty($menu->linksrc)?$menu->linksrc:"";?>">                    
+                    	<input  placeholder="Menu Link" class="validate[length[0,50]]" type="text" name="linksrc" id="linksrc" value="<?php echo !empty($menu->linksrc)?$menu->linksrc:"";?>">                    
                     </div>
                 	<div class="col-md-6" style="padding-left:0px !important;">
 						<select data-placeholder="Select Link Page" class="col-md-4 chosen-select" id="linkPage">
