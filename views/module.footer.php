@@ -99,11 +99,8 @@ $footer = '
                             <h5>Explore</h5>
                             <div class="footer_links">
                                 <ul>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Rooms &amp; Suites</a></li>
-                                    <li><a href="#">Meeting &amp; Events</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms and Conditions</a></li>
+                                    '. $jVars['module:res-menu1'] .'
+
                                 </ul>
                             </div>
                         </div>

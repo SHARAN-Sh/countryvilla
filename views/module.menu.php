@@ -96,7 +96,7 @@ $current_url = $_SERVER["REQUEST_URI"];
 $data = explode('/', $current_url);
 
 if ($menuRec):
-    $result .= '<ul class="footer-explore-list list-unstyled">';
+    $result .= '';
     foreach ($menuRec as $menuRow):
         $linkActive = $PlinkActive = '';
         $tot = strlen(SITE_FOLDER) + 2;
@@ -113,7 +113,7 @@ if ($menuRec):
         $menusubRec = Menu::getMenuByParent($menuRow->id, 2);
         $subclass = ($menusubRec) ? ' submenu dropdown ' : '';
         $classLink = !empty($menusubRec) ? ' dropdown-toggle' : '';
-        $chkchild = !empty($menusubRec) ? ' data-bs-toggle="dropdown" role="button" ' : ' role="button" aria-haspopup="true" aria-expanded="false" ';
+        $chkchild = !empty($menusubRec) ? ' data-bs-toggle="dropdown" role="button" ' : '';
         $drop1 = !empty($menusubRec) ? ' <i class=icon-down-open-mini></i>' : '';
         // $result .= '<li class="'. $subclass .$linkActive . $PlinkActive.' ">';
         $result .= '<li>';
@@ -168,10 +168,7 @@ if ($menuRec):
         endif;
         $result .= '</li>';
     endforeach;
-    $result .= '
-    <li> <button type="button" id="inquiry__btn" data-bs-toggle="modal" data-bs-target="#myModal"> Inquiry</button></li>
-
-    </ul>';
+    $result .= '';
 endif;
 
 $jVars['module:res-menu1'] = $result;
