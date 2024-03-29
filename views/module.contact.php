@@ -148,14 +148,14 @@ foreach ($phoneno as $tel) {
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-floating mb-4">
-                                    <input class="form-control" type="text" id="name_contact" name="name_contact" placeholder="Name">
-                                    <label for="name_contact">Name</label>
+                                    <input class="form-control" type="text" id="name" name="name" placeholder="Name">
+                                    <label for="name">Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating mb-4">
-                                    <input class="form-control" type="text" id="lastname_contact" name="lastname_contact" placeholder="Last Name">
-                                    <label for="lastname_contact">Last name</label>
+                                    <input class="form-control" type="text" id="lastname" name="lastname" placeholder="Last Name">
+                                    <label for="lastname">Last name</label>
                                 </div>
                             </div>
                         </div>
@@ -163,31 +163,32 @@ foreach ($phoneno as $tel) {
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-floating mb-4">
-                                    <input class="form-control" type="email" id="email_contact" name="email_contact" placeholder="Email">
-                                    <label for="email_contact">Email</label>
+                                    <input class="form-control" type="email" id="email" name="email" placeholder="Email">
+                                    <label for="email">Email</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating mb-4">
-                                    <input class="form-control" type="text" id="phone_contact" name="phone_contact" placeholder="Telephone">
-                                    <label for="phone_contact">Telephone</label>
+                                    <input class="form-control" type="text" id="phone" name="phone" placeholder="Telephone">
+                                    <label for="phone">Telephone</label>
                                 </div>
                             </div>
                         </div>
                         <!-- /row -->
                         <div class="form-floating mb-4">
-                            <textarea class="form-control" placeholder="Message" id="message_contact" name="message_contact"></textarea>
-                            <label for="message_contact">Message</label>
+                            <textarea class="form-control" placeholder="Message" id="message" name="message"></textarea>
+                            <label for="message">Message</label>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-floating mb-4">
-                                    <input class="form-control" type="text" id="verify_contact" name="verify_contact" placeholder="Are you human? 3 + 1 =">
-                                    <label for="verify_contact">Are you human? 3 + 1 =</label>
+                                    <input class="form-control" type="text" id="verify" name="verify" placeholder="Are you human? 3 + 1 =">
+                                    <label for="verify">Are you human? 3 + 1 =</label>
                                 </div>
                             </div>
                         </div>
-                        <p class="mt-3"><input type="submit" value="Submit" class="btn_1 outline" id="submit-contact"></p>
+                        <p class="mt-3"><input type="submit" value="Submit" id="submit" class="btn_1 outline" id="submit-contact"></p>
+                        <div id="result_msg"></div>
                     </form>
                 </div>
 

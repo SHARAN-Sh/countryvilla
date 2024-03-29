@@ -11,7 +11,7 @@ foreach ($_POST as $key => $val) {
   $$key = $val;
 }
 
-if ($_POST['action'] == "frm_inquiry"):
+if ($_POST['action'] == "forContact"):
   $body = '
       <table width="100%" border="0" cellpadding="0" style="font:12px Arial, serif;color:#222;">
           <tr>
@@ -20,11 +20,11 @@ if ($_POST['action'] == "frm_inquiry"):
           <tr>
               <td>
                   <p>
-                      <span style="color:#0065B3; font-size:14px; font-weight:bold">Inquiry message</span><br />
+                      <span style="color:#0065B3; font-size:14px; font-weight:bold">Enquiry message</span><br />
                       The details provided are:
                   </p>
                   <p>
-                      <strong>Name</strong> : ' . $name . '<br />		
+                      <strong>Name</strong> : ' . $name . ' ' . $lastname . '<br />		
                       <strong>E-mail</strong> : ' . $email . '<br />		
                       <strong>Phome</strong> : ' . $phone . '<br />		
                       <strong>Message</strong>: ' . $message . '<br />
@@ -34,7 +34,7 @@ if ($_POST['action'] == "frm_inquiry"):
           <tr>
               <td>
                   <p>Thank you,<br />
-                  ' . $name . '
+                  ' . $name . ' ' . $lastname . '
                   </p>
               </td>
           </tr>
@@ -58,9 +58,9 @@ if ($_POST['action'] == "frm_inquiry"):
   $mail->MsgHTML($body);
 
   if (!$mail->Send()) {
-      echo json_encode(array("action" => "unsuccess", "message" => "We could not sent your Inquiry at the time. Please try again later."));
+      echo json_encode(array("action" => "unsuccess", "message" => "We could not sent your Enquiry at the time. Please try again later."));
   } else {
-      echo json_encode(array("action" => "success", "message" => "Your Inquiry has been successfully sent."));
+      echo json_encode(array("action" => "success", "message" => "Your Enquiry has been successfully sent."));
   }
 endif;
 
