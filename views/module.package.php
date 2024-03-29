@@ -18,8 +18,9 @@ if (defined('HOME_PAGE')) {
             
             
             $imglink = '';
-                if (!empty($subRow->header_image)) {
-                $img123 = unserialize($subRow->header_image);
+            $img123 = unserialize($subRow->header_image);
+                if (!empty($img123[0])) {
+
                     $file_path = SITE_ROOT . 'images/package/imgheader/' . $img123[0];
                     if (file_exists($file_path)) {
                         $imglink = IMAGE_PATH . 'package/imgheader/' . $img123[0];
