@@ -42,6 +42,7 @@
 			$Package->meta_description	= $_REQUEST['meta_description'];
 			
 			$Package->banner_image	= serialize(array_values(array_filter($_REQUEST['imageArrayname2'])));
+			$Package->header_image	= serialize(array_values(array_filter($_REQUEST['imageArrayname3'])));
 								
 			$Package->status		= $_REQUEST['status'];
 			$Package->sortorder		= Package::find_maximum();
@@ -84,6 +85,8 @@
 			}
 
 			$Package->banner_image	= serialize(array_values(array_filter($_REQUEST['imageArrayname2'])));
+			$Package->header_image	= serialize((array_values(array_filter($_REQUEST['header_image']))));
+
 			$Package->slug 	   = $_REQUEST['slug'];
 			$Package->title    = $_REQUEST['title'];	
 			$Package->sub_title = $_REQUEST['sub_title'];	

@@ -182,6 +182,58 @@ if (isset($_GET['page']) && $_GET['page'] == "package" && isset($_GET['mode']) &
                 <div class="form-row add-image">
                     <div class="form-label col-md-2">
                         <label for="">
+                            Header Image :
+                        </label>
+                    </div>
+                    <div class="form-input col-md-10 uploader">
+                        <input type="file" name="header_upload" id="header_upload" class="transparent no-shadow">
+                        <label>
+                        <small>Image Dimensions (<?php echo Module::get_properties($moduleId, 'imgwidth'); ?> px
+                            X <?php echo Module::get_properties($moduleId, 'imgheight'); ?> px)
+                        </small>
+                    </label>
+                    </div>
+                    <!-- Upload user image preview -->
+                    <div id="preview_himage"><input type="hidden" name="header_image[]"/></div>
+                </div>
+
+                <div class="form-row">
+                    <?php
+                    if (!empty($packageInfo->header_image)):
+                        $imageRec = unserialize($packageInfo->header_image);
+                        // pr($imageRec);
+                        if ($imageRec):
+                            foreach ($imageRec as $k => $imageRow): ?>
+                                <div class="col-md-3" id="removeSavedimg<?php echo $k; ?>">
+                                    <div class="infobox info-bg">
+                                        <div class="button-group" data-toggle="buttons">
+                                    <span class="float-left">
+                                        <?php
+                                        if (file_exists(SITE_ROOT . "images/package/imgheader/" . $imageRow)):
+                                            $filesize = filesize(SITE_ROOT . "images/package/imgheader/" . $imageRow);
+                                            echo 'Size : ' . getFileFormattedSize($filesize);
+                                        endif;
+                                        ?>
+                                    </span>
+                                            <a class="btn small float-right" href="javascript:void(0);"
+                                               onclick="deleteSavedPackageimage(<?php echo $k; ?>);">
+                                                <i class="glyph-icon icon-trash-o"></i>
+                                            </a>
+                                        </div>
+                                        <img src="<?php echo IMAGE_PATH . 'package/imgheader/thumbnails/' . $imageRow; ?>"
+                                             style="width:100%"/>
+                                        <input type="hidden" name="header_image[]" value="<?php echo $imageRow; ?>"/>
+
+                                    </div>
+                                </div>
+                            <?php endforeach;
+                        endif;
+                    endif; ?>
+                </div>
+
+                <div class="form-row add-image">
+                    <div class="form-label col-md-2">
+                        <label for="">
                             Banner Image :
                         </label>
                     </div>

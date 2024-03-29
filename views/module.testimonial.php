@@ -5,18 +5,26 @@
 */
 $restst = '';   
 $stylecss ='';
+
 $tstRec = Testimonial::get_alltestimonial(8);
 if (!empty($tstRec)) {
     $restst .= '';
-    foreach ($tstRec as $tstRow) {
+    foreach ($tstRec as $count => $tstRow) {
         $slink = !empty($tstRow->linksrc) ? $tstRow->linksrc : 'javascript:void(0);';
         $target = !empty($tstRow->linksrc) ? 'target="_blank"' : '';
         $rating = '';
         for ($i = 0; $i < $tstRow->type; $i++){
             $rating.='<a href="#"><i class="fa-solid fa-star"></i></a>';
         }
-        $restst .= '';
+        $stylecss .= '        
+        <style>
+        .carousel_testimonials.owl-theme .owl-dots .owl-dot:nth-child('. ($count+1) .') span::before{
+            background-image: url('.IMAGE_PATH . 'testimonial/'. $tstRow->image .') !important;
+        }
+        </style>';
+
         $restst .= '
+
             <div class="item">
                 <div class="box_overlay">
                     
@@ -58,6 +66,7 @@ $result_last ='
                 ';
 
 
+$jVars['module:testimonial-style'] = $stylecss;
 $jVars['module:testimonialList123'] = $result_last;
 
 

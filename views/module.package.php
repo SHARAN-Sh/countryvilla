@@ -6,57 +6,63 @@ $booking_code = Config::getField('hotel_code', true);
 * Home accmodation list
 */
 $imageList = '';
-$reshmpkg = '';
-
+$indpkg = '';
+$wholepkg ='';
 
 if (defined('HOME_PAGE')) {
-    $acid = Package::get_accommodationId();
-    $pkgRec = Package::find_by_id($acid);
+
+    $pkgRec = Package::getHomePackage();
     if (!empty($pkgRec)) {
-        $subRec = Subpackage::getPackage_limit($acid);
-
-        if (!empty($subRec)) {
+        
+        foreach ($pkgRec as $count => $subRow) {
+            
+            
             $imglink = '';
-            $reshmpkg .= '';
-
-            $reshmpkg .= "";
-            foreach ($subRec as $subRow) {
-
-                $features_of_rooms = '';
-                if($subRow->class_room_style == 'best_deal'){
-                    $features_of_rooms = '<div class="tags discount">Best Deal</div>';
-                }
-                elseif($subRow->class_room_style == 'featured_room'){
-                    $features_of_rooms = '<div class="tags featured">Featured Room</div>';
-                }
-
-                $img123 = unserialize($subRow->image);
-
-                if (!empty($subRow->image)) {
-
-                    $imgpath = IMAGE_PATH . 'subpackage/' . $img123[0];
+                if (!empty($subRow->header_image)) {
+                $img123 = unserialize($subRow->header_image);
+                    $file_path = SITE_ROOT . 'images/package/imgheader/' . $img123[0];
+                    if (file_exists($file_path)) {
+                        $imglink = IMAGE_PATH . 'package/imgheader/' . $img123[0];
+                    } else {
+                        $imglink = $jVars['site:default-image'];
+                    }
                 } else {
-                    $imgpath = IMAGE_PATH . 'static/inner-img.jpg';
+                    $imglink = $jVars['site:default-image'];
                 }
-                $file_path = SITE_ROOT . 'images/subpackage/' . $img123[0];
-                if (file_exists($file_path) and !empty($subRow->image)) {
-                                $reshmpkg .= '
-                            <div class="col-md-4 room-item wow fadeInUp" data-wow-delay=".4s">
-                               <div class="inner">
-                                   '. $features_of_rooms .'
-                                   <img src="' . $imgpath . '" class="img-responsive" alt="' . $subRow->title . '">
-                                   <h3>' . $subRow->title . '</h3>
-                                   <div class="price_from">Start From <span>'. $subRow->currency .' ' . $subRow->onep_price . '++</span>/night</div>
-                                   <div class="spacer-half"></div>
-                                   <a href="' . BASE_URL . $subRow->slug . '" class="btn-detail">View Details</a>
-                               </div>
-                           </div>
-                                ';
-                            
-                }
-            }
-            $reshmpkg .= '';
+
+                $top = ($count % 2 == 0)? ' order-lg-2':'';
+                $bottom = ($count % 2 == 0)? ' order-lg-1':'';
+                $indpkg .='
+                <div class="row justify-content-between d-flex align-items-center add_bottom_90">
+                    <div class="col-lg-6 '.$top.'">
+                        <div class="pinned-image rounded_container pinned-image--small mb-4">
+                            <div class="pinned-image__container">
+                                <img src="'. $imglink .'" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 '.$bottom.'">
+                        <div class="title">
+                            <h3>'. $subRow->title.'</h3>
+                                '. $subRow->content.'
+                            <p><a href="'.BASE_URL . $subRow->slug .'" class="btn_1 mt-1 outline">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+                ';
+                
         }
+        $wholepkg = '
+            <div class="service-home padding_80_80 bg_white">
+                <div class="container">
+                    '.$indpkg.'
+                    
+                    <!-- /row-->
+                </div>
+                <!-- /container-->
+            </div>
+            <!-- /bg_white -->
+        ';
     }
 
 
@@ -65,7 +71,7 @@ if (defined('HOME_PAGE')) {
 
 
 
-$jVars['module:home-accommodation'] = $reshmpkg;
+$jVars['module:home-accommodation'] = $wholepkg;
 
 
 

@@ -2993,13 +2993,7 @@ footer .copy {
     height: 56px !important;
 }
 
-.carousel_testimonials.owl-theme .owl-dots .owl-dot:nth-child(1) span::before{
-    background-image: url(../img/booking.svg);
-}
 
-.carousel_testimonials.owl-theme .owl-dots .owl-dot:nth-child(2) span::before{
-    background-image: url(../img/Tripadvisor_icon_logo.png);
-}
 
 
 #icon_drag_mobile {
