@@ -62,5 +62,55 @@
     <script src="js/datepicker_inline.js"></script>
     <script src="phpmailer/validate.js"></script>
 
+
+
+    
+  <script>
+    // Function to calculate the next day from a given date
+    function getNextDay(date) {
+        var nextDay = new Date(date);
+        nextDay.setDate(nextDay.getDate() + 1);
+        return nextDay.toISOString().split('T')[0];
+    }
+
+    // Get today's date
+    var today = new Date();
+    var todayFormatted = today.toISOString().split('T')[0];
+
+    // Set the check-in input's min attribute to today
+    document.getElementById('checkin').min = todayFormatted;
+    document.getElementById('checkin').value = todayFormatted;
+
+    // Calculate tomorrow's date
+    var tomorrow = new Date(today);
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    var tomorrowFormatted = tomorrow.toISOString().split('T')[0];
+
+    // Set the checkout input's min attribute to tomorrow
+    document.getElementById('checkout').min = tomorrowFormatted;
+    document.getElementById('checkout').value = tomorrowFormatted;
+
+    // Add change event listener to checkin date input
+    document.getElementById('checkin').addEventListener('change', function() {
+        var checkinDate = new Date(this.value);
+        var checkoutDate = new Date(document.getElementById('checkout').value);
+        
+        if (checkoutDate <= checkinDate) {
+            var newCheckoutDate = getNextDay(checkinDate);
+            document.getElementById('checkout').value = newCheckoutDate;
+        }
+    });
+
+    // Add change event listener to checkout date input
+    document.getElementById('checkout').addEventListener('change', function() {
+        var checkinDate = new Date(document.getElementById('checkin').value);
+        var checkoutDate = new Date(this.value);
+
+        if (checkoutDate <= checkinDate) {
+            var newCheckoutDate = getNextDay(checkinDate);
+            this.value = newCheckoutDate;
+        }
+    });
+</script>
 </body>
 </html>

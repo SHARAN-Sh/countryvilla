@@ -614,6 +614,23 @@ $roombooking ='';
 
 if (defined('SUBPACKAGE_PAGE') ) {
 
+    $phoneno = explode(",", $siteRegulars->roomno);
+
+    $count = 1;
+    $phonelinked ='';
+    foreach ($phoneno as $tel) {
+        if($count>1){
+            $phonelinked .= '/';
+            $phonelinked .= '<a href="tel:+9771' . $tel . '">' . substr($tel, -2) . '</a>';
+
+        }else{
+            $phonelinked .= '<a href="tel:+9771' . $tel . '">+977- 1 -' . $tel . '</a>';
+
+        }
+
+        $count++;
+    }
+
     $roombooking = '
     <div class="clr">
         <div class="container padding_80_80" id="booking_section">
@@ -626,7 +643,7 @@ if (defined('SUBPACKAGE_PAGE') ) {
                         </div>
                         <p>You can check the availability of a room prior after entering a date request. This will ensure that the room you are requesting is not already booked.</p>
 
-                        <p class="phone_element no_borders"><a href="tel://+97716680127"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>+977 6680127 / 28</span></a></p>
+                        <p class="phone_element no_borders"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>'.$phonelinked.'</span></p>
                     </div>
                 </div>
                 <div class="col-xl-7">
@@ -635,12 +652,12 @@ if (defined('SUBPACKAGE_PAGE') ) {
                             <div class="row">
                                 <div class="col-lg-6">
                                     <label for="birthday">Check - In</label>
-                                    <input type="date" id="date" name="date" class="form-control">
+                                    <input type="date" id="checkin" name="date" class="form-control">
                                 </div>
 
                                 <div class="col-lg-6">
                                     <label for="birthday">Check - Out</label>
-                                    <input type="date" id="date" name="date" class="form-control">
+                                    <input type="date" id="checkout" name="date" class="form-control">
                                 </div>
                             </div>
                         </div>

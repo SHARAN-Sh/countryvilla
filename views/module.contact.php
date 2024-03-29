@@ -179,14 +179,16 @@ foreach ($phoneno as $tel) {
                             <textarea class="form-control" placeholder="Message" id="message" name="message"></textarea>
                             <label for="message">Message</label>
                         </div>
-                        <div class="row">
+                        <!--<div class="row">
                             <div class="col-md-6">
                                 <div class="form-floating mb-4">
                                     <input class="form-control" type="text" id="verify" name="verify" placeholder="Are you human? 3 + 1 =">
                                     <label for="verify">Are you human? 3 + 1 =</label>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
+                        <div id="g-recaptcha-response" class="g-recaptcha col-md-8 form-group" data-sitekey="6LeciagpAAAAAEWwHF9swxWiinxzk3cPW6simDx8"></div>
+
                         <p class="mt-3"><input type="submit" value="Submit" id="submit" class="btn_1 outline" id="submit-contact"></p>
                         <div id="result_msg"></div>
                     </form>

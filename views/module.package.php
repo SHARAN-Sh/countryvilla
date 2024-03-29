@@ -417,6 +417,25 @@ if (defined('PACKAGE_PAGE') and isset($_REQUEST['slug'])) {
 
                     ';
                 }
+
+                $siteRegulars = Config::find_by_id(1);
+                $phoneno = explode(",", $siteRegulars->roomno);
+
+                $count = 1;
+                $phonelinked ='';
+                foreach ($phoneno as $tel) {
+                    if($count>1){
+                        $phonelinked .= '/';
+                        $phonelinked .= '<a href="tel:+9771' . $tel . '">' . substr($tel, -2) . '</a>';
+            
+                    }else{
+                        $phonelinked .= '<a href="tel:+9771' . $tel . '">+977- 1 -' . $tel . '</a>';
+            
+                    }
+            
+                    $count++;
+                }
+
             $room_package = '
 
                             <div class="container padding_80_80" id="booking_section">
@@ -429,7 +448,7 @@ if (defined('PACKAGE_PAGE') and isset($_REQUEST['slug'])) {
                                             </div>
                                             <p>You can check the availability of a room prior after entering a date request. This will ensure that the room you are requesting is not already booked.</p>
                         
-                                            <p class="phone_element no_borders"><a href="tel://423424234"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>+41 934 121 1334</span></a></p>
+                                            <p class="phone_element no_borders"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>'.$phonelinked.'</span></p>
                                         </div>
                                     </div>
                                     <div class="col-xl-7">
@@ -438,12 +457,12 @@ if (defined('PACKAGE_PAGE') and isset($_REQUEST['slug'])) {
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <label for="birthday">Check - In</label>
-                                                        <input type="date" id="date" name="date" class="form-control">
+                                                        <input type="date" id="checkin" name="date" class="form-control">
                                                     </div>
                         
                                                     <div class="col-lg-6">
                                                         <label for="birthday">Check - Out</label>
-                                                        <input type="date" id="date" name="date" class="form-control">
+                                                        <input type="date" id="checkout" name="date" class="form-control">
                                                     </div>
                                                 </div>
                                             </div>
@@ -786,7 +805,7 @@ if (defined('HOME_PAGE')) {
     $pkgRoom = Package::getPackageByType(0);
     
     $otherroom='';
-        $rooms = Subpackage::get_relatedsub_by(1,'',3);
+        $rooms = Subpackage::get_relatedsub_by(1,'',6);
             
         if(!empty($rooms)){
                 
@@ -1166,6 +1185,24 @@ if (defined('SUBPACKAGE_PAGE') and isset($_REQUEST['slug'])) {
                     </div>
                 
                 ';
+
+   
+                $siteRegulars = Config::find_by_id(1);
+                $phoneno = explode(",", $siteRegulars->dineno);
+                $count = 1;
+                $phonelinked ='';
+                foreach ($phoneno as $tel) {
+                    if($count>1){
+                        $phonelinked .= '/';
+                        $phonelinked .= '<a href="tel:+9771' . $tel . '">' . substr($tel, -2) . '</a>';
+            
+                    }else{
+                        $phonelinked .= '<a href="tel:+9771' . $tel . '">+977- 1 -' . $tel . '</a>';
+            
+                    }
+            
+                    $count++;
+                }
                 $resubpkgDetail .= '
                     <div class="container margin_120_95">
                         <div class="row justify-content-between align-items-center">
@@ -1191,7 +1228,7 @@ if (defined('SUBPACKAGE_PAGE') and isset($_REQUEST['slug'])) {
                                         <strong>Dinner</strong>  <span>'.$subpkgRec->cocktail.'</span>
                                     </li>
                                 </ul>
-                                <p class="phone_element"><a href="tel://+97716680127"><i class="bi bi-telephone"></i><span><em>Reservations</em>+977 1 6680127 / 28</span></a></p>
+                                <p class="phone_element"><a href=""><i class="bi bi-telephone"></i><span><em>Reservations</em>'.$phonelinked.'</span></a></p>
                             </div>
                             </div>
                         </div>

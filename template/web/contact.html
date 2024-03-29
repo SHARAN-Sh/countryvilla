@@ -57,6 +57,7 @@
 <script src="phpmailer/validate.js"></script>
 
 <script src="js/jquery.validate.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 
 <script type="text/javascript">
     $(document).ready(function () {
@@ -78,6 +79,12 @@
                 message: {required: "Please enter your Message."}
             },
             submitHandler: function (form) {
+                var recaptcha = $("#g-recaptcha-response").val();
+                if (recaptcha === "") {
+                    event.preventDefault();
+                    alert("Please check the recaptcha");
+                    return false;
+                }
                 var Frmval = $("form#contactform").serialize();
                 $("#submit").attr("disabled", "true").text('Processing...');
                 $.ajax({

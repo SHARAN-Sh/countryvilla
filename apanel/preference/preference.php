@@ -456,7 +456,7 @@ clearImages($moduleTablename, "preference/offer/thumbnails", "offer_upload");
                 </div>
                 <div class="form-input col-md-8">
                     <div class="col-md-4" style="padding-left:0px !important;">
-                        <input placeholder="Event No" class="validate[required,length[0,50]]" type="text"
+                        <input placeholder="Event No" class="validate[length[0,50]]" type="text"
                                name="eventno" id="eventno"
                                value="<?php echo !empty($PrefeRow->eventno) ? $PrefeRow->eventno : ""; ?>">
                     </div>
@@ -471,7 +471,7 @@ clearImages($moduleTablename, "preference/offer/thumbnails", "offer_upload");
                 </div>
                 <div class="form-input col-md-8">
                     <div class="col-md-4" style="padding-left:0px !important;">
-                        <input placeholder="Event Mail" class="validate[required,length[0,50]]" type="text"
+                        <input placeholder="Event Mail" class="validate[length[0,50]]" type="text"
                                name="eventmail" id="eventmail"
                                value="<?php echo !empty($PrefeRow->eventmail) ? $PrefeRow->eventmail : ""; ?>">
                     </div>
@@ -486,7 +486,7 @@ clearImages($moduleTablename, "preference/offer/thumbnails", "offer_upload");
                 </div>
                 <div class="form-input col-md-8">
                     <div class="col-md-4" style="padding-left:0px !important;">
-                        <input placeholder="Room No" class="validate[required,length[0,50]]" type="text"
+                        <input placeholder="Room No" class="validate[length[0,50]]" type="text"
                                name="roomno" id="roomno"
                                value="<?php echo !empty($PrefeRow->roomno) ? $PrefeRow->roomno : ""; ?>">
                     </div>
@@ -501,7 +501,7 @@ clearImages($moduleTablename, "preference/offer/thumbnails", "offer_upload");
                 </div>
                 <div class="form-input col-md-8">
                     <div class="col-md-4" style="padding-left:0px !important;">
-                        <input placeholder="Room Mail" class="validate[required,length[0,50]]" type="text"
+                        <input placeholder="Room Mail" class="validate[length[0,50]]" type="text"
                                name="roommail" id="roommail"
                                value="<?php echo !empty($PrefeRow->roommail) ? $PrefeRow->roommail : ""; ?>">
                     </div>
@@ -516,7 +516,7 @@ clearImages($moduleTablename, "preference/offer/thumbnails", "offer_upload");
                 </div>
                 <div class="form-input col-md-8">
                     <div class="col-md-4" style="padding-left:0px !important;">
-                        <input placeholder="Dine No" class="validate[required,length[0,50]]" type="text"
+                        <input placeholder="Dine No" class="validate[length[0,50]]" type="text"
                                name="dineno" id="dineno"
                                value="<?php echo !empty($PrefeRow->dineno) ? $PrefeRow->dineno : ""; ?>">
                     </div>
@@ -531,7 +531,7 @@ clearImages($moduleTablename, "preference/offer/thumbnails", "offer_upload");
                 </div>
                 <div class="form-input col-md-8">
                     <div class="col-md-4" style="padding-left:0px !important;">
-                        <input placeholder="Dine Mail" class="validate[required,length[0,50]]" type="text"
+                        <input placeholder="Dine Mail" class="validate[length[0,50]]" type="text"
                                name="dinemail" id="dinemail"
                                value="<?php echo !empty($PrefeRow->dinemail) ? $PrefeRow->dinemail : ""; ?>">
                     </div>
@@ -546,7 +546,7 @@ clearImages($moduleTablename, "preference/offer/thumbnails", "offer_upload");
                 </div>
                 <div class="form-input col-md-8">
                     <div class="col-md-4" style="padding-left:0px !important;">
-                        <input placeholder="Recreation No" class="validate[required,length[0,50]]" type="text"
+                        <input placeholder="Recreation No" class="validate[length[0,50]]" type="text"
                                name="recreationno" id="recreationno"
                                value="<?php echo !empty($PrefeRow->recreationno) ? $PrefeRow->recreationno : ""; ?>">
                     </div>
@@ -561,7 +561,7 @@ clearImages($moduleTablename, "preference/offer/thumbnails", "offer_upload");
                 </div>
                 <div class="form-input col-md-8">
                     <div class="col-md-4" style="padding-left:0px !important;">
-                        <input placeholder="Recreation Mail" class="validate[required,length[0,50]]" type="text"
+                        <input placeholder="Recreation Mail" class="validate[length[0,50]]" type="text"
                                name="recreationmail" id="recreationmail"
                                value="<?php echo !empty($PrefeRow->recreationmail) ? $PrefeRow->recreationmail : ""; ?>">
                     </div>
